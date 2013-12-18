@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: AudioTheme Admin Color Schemes
- * Plugin URI: http://audiotheme.com/
+ * Plugin URI: https://github.com/AudioTheme/audiotheme-admin-color-scheme
  * Description: Admin color schemes based on the AudioTheme branding.
  * Version: 1.0.0
  * Author: AudioTheme
