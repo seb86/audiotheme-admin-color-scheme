@@ -60,6 +60,5 @@ class Audiotheme_Color_Schemes {
 
 	}
 }
-global $acs_colors;
-$acs_colors = new Audiotheme_Color_Schemes;
 
+$GLOBALS['atacs_colors'] = new Audiotheme_Color_Schemes;
