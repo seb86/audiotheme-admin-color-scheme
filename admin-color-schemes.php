@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name: AudioTheme Admin Color Schemes
+ * Plugin Name: AudioTheme Admin Color Scheme
  * Plugin URI: https://github.com/AudioTheme/audiotheme-admin-color-scheme
- * Description: Admin color schemes based on the AudioTheme branding.
+ * Description: Admin color scheme based on the AudioTheme branding.
  * Version: 1.0.0
  * Author: AudioTheme
  * Author URI: http://audiotheme.com/
@@ -48,7 +48,6 @@ class Audiotheme_Color_Schemes {
 	 * on the profile screens, so the JS preview isn't broken-looking.
 	 */
 	function load_default_css() {
-
 		global $wp_styles, $_wp_admin_css_colors;
 
 		$color_scheme = get_user_option( 'admin_color' );
@@ -57,7 +56,6 @@ class Audiotheme_Color_Schemes {
 		if ( in_array( $color_scheme, $this->colors ) || in_array( get_current_screen()->base, $scheme_screens ) ){
 			$wp_styles->registered[ 'colors' ]->deps[] = 'colors-fresh';
 		}
-
 	}
 }
 
