@@ -108,6 +108,8 @@ ul#adminmenu a.wp-has-current-submenu:after, ul#adminmenu > li.current > a.curre
 
 #wpadminbar li:hover .ab-icon:before, #wpadminbar li:hover .ab-item:before, #wpadminbar li:hover .ab-item:after, #wpadminbar li:hover #adminbarsearch:before { color: white; }
 
+#wpadminbar #wp-admin-bar-updates a, #wpadminbar #wp-admin-bar-updates a:hover, #wpadminbar #wp-admin-bar-updates a:hover span.ab-label, #wpadminbar #wp-admin-bar-updates span.ab-icon:before, #wpadminbar #wp-admin-bar-updates span.ab-label { color: #2ecc71; }
+
 /* Admin Bar: submenu */
 #wpadminbar .menupop .ab-sub-wrapper { background: #1f2c39; }
 

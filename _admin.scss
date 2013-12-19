@@ -297,6 +297,14 @@ ul#adminmenu > li.current > a.current:after {
 	color: $menu-highlight-icon;
 }
 
+#wpadminbar #wp-admin-bar-updates a,
+#wpadminbar #wp-admin-bar-updates a:hover,
+#wpadminbar #wp-admin-bar-updates a:hover span.ab-label,
+#wpadminbar #wp-admin-bar-updates span.ab-icon:before,
+#wpadminbar #wp-admin-bar-updates span.ab-label {
+	color: $menu-updates-text;
+}
+
 
 /* Admin Bar: submenu */
 
