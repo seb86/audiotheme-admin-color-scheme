@@ -56,6 +56,28 @@ $menu-updates-text: $brand-success-alt;
 }
 
 
+// Delete links
+// --------------------------
+
+table.widefat span.delete a,
+table.widefat span.trash a,
+table.widefat span.spam a,
+.plugins a.delete,
+#all-plugins-table .plugins a.delete,
+#search-plugins-table .plugins a.delete,
+.submitbox .submitdelete,
+#media-items a.delete,
+#media-items a.delete-permanently,
+#nav-menu-footer .menu-delete,
+.attachment-info .delete-attachment {
+	color: $brand-danger;
+
+	&:hover {
+		color: $brand-danger-alt;
+	}
+}
+
+
 // Import WordPress Styles
 // -------------------------
 
