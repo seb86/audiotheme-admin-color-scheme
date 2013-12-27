@@ -25,6 +25,9 @@ $brand-info-alt:      #79CCD8;
 // WordPress Color Overides
 // --------------------------
 
+$link: $brand-primary-alt;
+$link-focus: $brand-primary;
+$form-checked: $brand-success;
 $base-color: $brand-primary;
 $highlight-color: $brand-secondary-alt;
 $notification-color: $brand-success-alt;
