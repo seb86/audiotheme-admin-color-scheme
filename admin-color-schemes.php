@@ -3,7 +3,7 @@
  * Plugin Name: AudioTheme Admin Color Scheme
  * Plugin URI: https://github.com/AudioTheme/audiotheme-admin-color-scheme
  * Description: Admin color scheme based on the AudioTheme branding.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Author: AudioTheme
  * Author URI: http://audiotheme.com/
  * Text Domain: admin_schemes
