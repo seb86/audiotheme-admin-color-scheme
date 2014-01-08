@@ -8,6 +8,8 @@
  * Author URI: http://audiotheme.com/
  * Text Domain: admin_schemes
  * Domain Path: /languages
+ * GitHub Plugin URI: https://github.com/AudioTheme/audiotheme-admin-color-scheme
+ * GitHub Branch: master
  */
 
 class Audiotheme_Color_Schemes {
